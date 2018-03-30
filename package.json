@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-deploy",
+  "version": "1.0.0",
+  "description": "testing deployment w/ nowjs and nextjs framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Ted J Werbel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "next": "^5.1.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "styled-components": "^3.2.5"
+  }
+}
